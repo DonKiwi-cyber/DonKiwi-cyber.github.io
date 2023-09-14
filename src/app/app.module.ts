@@ -5,9 +5,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { SkillsCompetencesComponent } from './skills-competences/skills-competences.component';
+import { AchievementsCertificatesComponent } from './achievements-certificates/achievements-certificates.component';
 
 import { HttpClientModule } from '@angular/common/http';
-
 
 
 @NgModule({
@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     WorkExperienceComponent,
     SkillsCompetencesComponent,
+    AchievementsCertificatesComponent,
   ],
   imports: [
     BrowserModule,
