@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WorkExperienceComponent } from './work-experience.component';
 
-import {HttpClientTestingModule} from '@angular/common/http/testing'
+import {HttpClientTestingModule} from '@angular/common/http/testing';
 
 describe('WorkExperienceComponent', () => {
   let component: WorkExperienceComponent;
