@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WorkExperienceComponent } from './work-experience.component';
+import { SkillsCompetencesComponent } from './skills-competences.component';
 
 import {HttpClientTestingModule} from '@angular/common/http/testing';
 
-describe('WorkExperienceComponent', () => {
-  let component: WorkExperienceComponent;
-  let fixture: ComponentFixture<WorkExperienceComponent>;
+describe('SkillsCompetencesComponent', () => {
+  let component: SkillsCompetencesComponent;
+  let fixture: ComponentFixture<SkillsCompetencesComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [WorkExperienceComponent],
+      declarations: [SkillsCompetencesComponent],
       imports : [HttpClientTestingModule]
     });
-    fixture = TestBed.createComponent(WorkExperienceComponent);
+    fixture = TestBed.createComponent(SkillsCompetencesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
