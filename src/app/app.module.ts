@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     WorkExperienceComponent,
     SkillsCompetencesComponent,
     AchievementsCertificatesComponent,
+    InterestsComponent,
   ],
   imports: [
     BrowserModule,
