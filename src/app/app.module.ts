@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { SkillsCompetencesComponent } from './skills-competences/skills-competences.component';
 import { AchievementsCertificatesComponent } from './achievements-certificates/achievements-certificates.component';
+import { InterestsComponent } from './interests/interests.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
