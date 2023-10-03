@@ -8,7 +8,7 @@ import { retry, catchError } from 'rxjs/operators';
 })
 export class AchievementsCertificatesService {
 
-  apiURL = 'https://api-cv-service-donkiwi-cyber.cloud.okteto.net/achievements-certificates'
+  apiURL = 'https://api-cv-service-donkiwi-cyber.cloud.okteto.net/achievements-certificates';
 
   constructor(private http: HttpClient) 
   { }
