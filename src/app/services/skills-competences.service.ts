@@ -8,7 +8,7 @@ import { retry, catchError } from 'rxjs/operators';
 })
 export class SkillsCompetencesService {
 
-  apiURL = 'http://localhost:8080/skills-competences'
+  apiURL = 'https://api-cv-service-donkiwi-cyber.cloud.okteto.net/skills-competences';
 
   constructor(private http: HttpClient) 
   { }

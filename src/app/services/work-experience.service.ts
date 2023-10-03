@@ -9,7 +9,7 @@ import { BehaviorSubject } from 'rxjs/';
 })
 export class WorkExperienceService {
 
-  apiURL = 'http://localhost:8080/work-experience'
+  apiURL = 'https://api-cv-service-donkiwi-cyber.cloud.okteto.net/work-experience';
 
   constructor(private http: HttpClient) 
   { }
